@@ -14,14 +14,14 @@
   }
 
   &__image {
-    content: url(../../../public/assets/images/image-product-mobile.jpg);
+    content: url(../assets/images/image-product-mobile.jpg);
     width: 100%;
     max-height: 240px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 
     @include respond(tablet-portrait) {
-      content: url(../../../public/assets/images/image-product-desktop.jpg);
+      content: url(../assets/images/image-product-desktop.jpg);
       width: 300px;
       max-height: 450px;
       border-radius: 0;
